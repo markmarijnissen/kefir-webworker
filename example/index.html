@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Kefir Webworker Example</title>
+  <script src="../node_modules/kefir/dist/kefir.js"></script>
+  <script src="../kefir-webworker.js"></script>
+  <script src="example.js"></script>
+</head>
+<body>
+<h1>kefir-webworker: Echo example</h1>
+<p>The webworker echos all event with a delay of 1 second.</p>
+<p>Open dev console:</p>
+<pre>
+emitter.emit('hello world!');
+emitter.error('oh no!');
+</pre>
+</body>
+</html>

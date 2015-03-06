@@ -1,0 +1,27 @@
+{
+  "name": "kefir-webworker",
+  "version": "0.1.0",
+  "description": "Map a Kefir stream to a WebWorker",
+  "main": "kefir-webworkers.js",
+  "scripts": {
+    "prepublish":"webpack --entry ./example/echo-worker --output-file ./example/echo-worker-bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kefir",
+    "webworker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markmarijnissen/kefir-webworker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markmarijnissen/kefir-webworker/issues"
+  },
+  "homepage": "https://github.com/markmarijnissen/kefir-webworker",
+  "author": "Mark Marijnissen",
+  "license": "MIT",
+  "dependencies": {
+    "kefir": "^1.1.0"
+  }
+}

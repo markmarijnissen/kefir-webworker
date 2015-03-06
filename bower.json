@@ -1,0 +1,22 @@
+{
+  "name": "kefir-webworker",
+  "main": "kefir-webworker.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/markmarijnissen/kefir-webworker",
+  "authors": [
+    "Mark Marijnissen <markmarijnissen@gmail.com>"
+  ],
+  "description": "Map a Kefir stream to a WebWorker",
+  "keywords": [
+    "kefir",
+    "webworker"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
